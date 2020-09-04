@@ -1,4 +1,4 @@
-import { BrowserModule } from '@angular/platform-browser';
+import { DashboardRoutingModule } from './dashboard-routing.module';
 import { NgModule } from '@angular/core';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { CommonModule } from '@angular/common';
@@ -8,8 +8,8 @@ import { CommonModule } from '@angular/common';
     DashboardComponent
   ],
   imports: [
-    BrowserModule,
-    CommonModule
+    CommonModule,
+    DashboardRoutingModule
   ],
   exports: [],
   providers: []
