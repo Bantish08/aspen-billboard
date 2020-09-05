@@ -2,6 +2,8 @@ import { DashboardRoutingModule } from './dashboard-routing.module';
 import { NgModule } from '@angular/core';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { CommonModule } from '@angular/common';
+import { MatSliderModule } from '@angular/material/slider';
+import { MaterialDesignModule } from '../components/shared/material-design.module';
 
 @NgModule({
   declarations: [
@@ -9,7 +11,9 @@ import { CommonModule } from '@angular/common';
   ],
   imports: [
     CommonModule,
-    DashboardRoutingModule
+    DashboardRoutingModule,
+    MatSliderModule,
+    MaterialDesignModule
   ],
   exports: [],
   providers: []
