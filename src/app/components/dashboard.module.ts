@@ -4,6 +4,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { CommonModule } from '@angular/common';
 import { MatSliderModule } from '@angular/material/slider';
 import { MaterialDesignModule } from '../components/shared/material-design.module';
+import { ChartsModule } from 'ng2-charts';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { MaterialDesignModule } from '../components/shared/material-design.modul
     CommonModule,
     DashboardRoutingModule,
     MatSliderModule,
-    MaterialDesignModule
+    MaterialDesignModule,
+    ChartsModule
   ],
   exports: [],
   providers: []
